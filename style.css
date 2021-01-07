@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+   
+   margin: 0;
+   box-sizing: border-box; 
+}
+html
+{
+    font-family: 'Anton', sans-serif;
+}
+section
+{
+    
+    display: flex;
+   
+}
+#createbtn:hover {
+    color: rgb(134, 134, 134);
+  }
+  #modernbtn:hover {
+    color: rgb(134, 134, 134);
+  }
+  #digitalbtn:hover {
+    color: rgb(134, 134, 134);
+  }
+
+  
+.left
+{
+    width: 700px;
+    height: 500px;
+    background-color: #ffff00;
+    margin-left: 150px;
+    
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li 
+{
+    display: inline;
+}
+
+#createbtn
+{
+    
+    border:none;
+    background-color: #ffffff;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    padding: 10px;
+    border-color: white;
+    margin-left: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+
+    
+}
+#createtxt
+{
+    display:none; 
+    font-size: 80px; 
+    padding:95px;
+    letter-spacing: 10px;
+    color: rgb(134, 134, 134);
+}
+#modernbtn
+{
+    border:none;
+    background-color: #ffffff;
+    color:  rgb(15, 15, 15);
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 60px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+#moderntxt
+{
+    display:none; 
+    font-size: 80px; 
+    padding:95px;
+    letter-spacing: 10px;
+    color: rgb(134, 134, 134);
+}
+#digitalbtn
+{
+    border:none;
+    background-color: #ffffff;
+    color:  rrgb(15, 15, 15);
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 60px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+
+}
+#digitaltxt
+{
+    display:none; 
+    font-size: 80px; 
+    padding:95px;
+    letter-spacing: 10px;
+    color: rgb(134, 134, 134);
+}
+#demo
+{
+    top: 512px;
+    position: absolute;
+}
+.right
+{
+
+  width: 427px;
+  height: 591px;
+  background:url(./design.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 700px;
+  top: 26px;
+  position: absolute;
+}
